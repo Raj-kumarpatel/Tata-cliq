@@ -1,0 +1,370 @@
+#container {
+    height: 40px;
+    width: 900px;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #card {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  #container > div {
+    display: inline-block;
+    vertical-align: 9px;
+    margin-right: 670px;
+  }
+  
+  #arrow {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+  }
+  
+  #arrowUpper {
+    height: 25px;
+    width: 25px;
+    display: none;
+  }
+  
+  #first {
+    height: 100px;
+    width: 500px;
+    border-top: 300px;
+    /* border:1px solid red; */
+    display: none;
+    margin-left: 30px;
+  }
+  
+  #cardNumber {
+    height: 30px;
+    width: 210px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #name {
+    height: 30px;
+    width: 210px;
+    margin-right: 15px;
+  }
+  
+  #select {
+    width: 130px;
+    height: 30px;
+  }
+  
+  #year {
+    width: 120px;
+    height: 30px;
+  }
+  
+  #ccv {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  #btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ff1744;
+    border: 1px solid #ff1744;
+    color: white;
+  }
+  
+  #DebitContainer {
+    height: 40px;
+    width: 900px;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #Debit {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  #DebitContainer > div {
+    display: inline-block;
+    vertical-align: 9px;
+    margin-right: 670px;
+  }
+  
+  #Lower {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+  }
+  
+  #Upper {
+    height: 25px;
+    width: 25px;
+    display: none;
+  }
+  
+  #Line1 {
+    height: 100px;
+    width: 500px;
+    margin-left: 30px;
+    display: none;
+  }
+  
+  #DebitNumber {
+    height: 30px;
+    width: 210px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #DebitName {
+    height: 30px;
+    width: 210px;
+    margin-right: 15px;
+  }
+  
+  #ExpiryM {
+    width: 130px;
+    height: 30px;
+  }
+  
+  #ExpiryY {
+    width: 120px;
+    height: 30px;
+  }
+  
+  #Back {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  #Button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ff1744;
+    border: 1px solid #ff1744;
+    color: white;
+  }
+  
+  #EMIpytm {
+    height: 40px;
+    width: 900px;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #EMI {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  #EMIpytm > div {
+    display: inline-block;
+    vertical-align: 9px;
+    margin-right: 710px;
+  }
+  
+  #low {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    float: right;
+    margin-right: 68px;
+    font-size: 20px;
+  }
+  
+  #Pytm_UPI {
+    height: 40px;
+    width: 900px;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #UPI {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  #Pytm_UPI > div {
+    display: inline-block;
+    vertical-align: 9px;
+    margin-right: 690px;
+  }
+  
+  #arrow_lower {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+  }
+  
+  #netbanking {
+    height: 40px;
+    width: 900px;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #net {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  #netbanking > div {
+    display: inline-block;
+    vertical-align: 9px;
+    margin-right: 650px;
+  }
+  
+  #arrowlower {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+  }
+  
+  #CashOnDelivery {
+    height: 40px;
+    width: 900px;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #COD {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  #CashOnDelivery > div {
+    display: inline-block;
+    vertical-align: 9px;
+    margin-right: 620px;
+  }
+  
+  #codarrow {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+  }
+  
+  #box {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  #box > div {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  #number {
+    height: 20px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 150px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  #text {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #main {
+    /* margin: auto; */
+    margin: 10px;
+    /* margin-top: 6%; */
+    width: 900px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  /* style by bharat */
+  body {
+    background-color: #ececec;
+  }
+  
+  .paymentConti {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .cartTotalInfo {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .cartPricing {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .cartPricing p {
+    margin: 0;
+  }
+  
+  .greenDisco {
+    margin: 30px 0px;
+    font-size: 18px;
+    color: green;
+  }
+  
+  .cartTotalPrice {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  #titlePayment {
+    margin: 20px 0px 20px 15px;
+  }
+  
+  .fa-angle-up,
+  .fa-angle-down {
+    font-size: 20px;
+  }

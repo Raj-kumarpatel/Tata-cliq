@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment</title>
+    <link rel="stylesheet" href="font-family.css">
+    <link rel="stylesheet" href="nav2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="payment.css">
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="nav2Container">
+        <img src="https://th.bing.com/th/id/R.f9fe3557bbdee85819ea50e545857f47?rik=RCu0z%2bdJ%2fXV9DA&riu=http%3a%2f%2fwww.pngimagesfree.com%2fLOGO%2fT%2fTata-CLiQ%2fTata-cliq-logo-PNG-Black-and-White.png&ehk=VYeaZBd8Ve6p2eYlCqbMtBUCGs9T28wKpCBCrGwTd8Q%3d&risl=&pid=ImgRaw&r=0" alt="" id="nav2logo">
+        <div id="nav2icon"><i id="nav2imog1" class="far fa-user-circle"></i><i id="nav2imog"
+                class="far fa-chevron-down"></i>
+
+        </div>
+        <div id="nav2pop">
+            <p id="nav2arrow"></p>
+            <ul id="nav2loginList">
+
+
+                <li><i id="nav2popIcon" class="fal fa-user-circle"></i>My account</li>
+                <li><i id="nav2popIcon" class="fal fa-briefcase"></i>Order History</li>
+                <li><i id="nav2popIcon" class="fal fa-bookmark"></i>Saved List</li>
+                <li><i id="nav2popIcon" class="fal fa-bell"></i>Alerts & Coupon</li>
+                <li><i id="nav2popIcon" class="fal fa-gift-card"></i>Gift Card</li>
+                <li><i id="nav2popIcon" class="fal fa-sack-dollar"></i>CLiQ Cash</li>
+                <li><i id="nav2popIcon" class="fal fa-cog"></i>Log Out</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <h1 id="titlePayment">Checkout</h1>
+
+
+
+
+    <div class="paymentConti">
+        <div class="paymentOption">
+            <div id="main">
+                <div id="box">
+                    <div id="number">3</div>
+                    <div id="text">Payment Method</div>
+                </div>
+                <hr>
+                <div id="container">
+                    <img id="card" src="https://cdn-icons-png.flaticon.com/512/633/633611.png" alt="">
+                    <div>Credit card</div>
+
+                    <p id="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                    <p id="arrowUpper"><i class="fa fa-angle-up" aria-hidden="true"></i></p>
+
+                </div>
+                <div id="first">
+                    <input id="cardNumber" type="number" placeholder="Card Number*">
+                    <select name="" id="select">
+                        <option value="">Expiry Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+
+                    <select name="" id="year">
+                        <option value="">Expiry Year</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                    </select>
+
+                    <div id="second">
+                        <input id="name" type="text" placeholder="Name On Card*">
+                        <input id="ccv" type="number" placeholder="CVV">
+                        <button id="btn">Pay Now</button>
+                    </div>
+                </div>
+                <hr>
+
+
+
+
+                <div id="DebitContainer">
+                    <img id="Debit" src="https://cdn-icons-png.flaticon.com/512/3037/3037255.png" alt="">
+                    <div>Debit Card</div>
+                    <p id="Lower"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                    <p id="Upper"><i class="fa fa-angle-up" aria-hidden="true"></i></p>
+
+
+                    <!-- <img id="Lower"
+                        src="https://cdn-icons.flaticon.com/png/512/2985/premium/2985150.png?token=exp=1636618883~hmac=2cfe3f018f883063f5ff0d1769b44702"
+                        alt="">
+                    <img id="Upper" src="https://cdn-icons-png.flaticon.com/512/130/130906.png" alt=""> -->
+                </div>
+                <div id="Line1">
+                    <input id="DebitNumber" type="number" placeholder="Card Number*">
+                    <select id="ExpiryM">
+                        <option value="">Expiry Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+
+                    <select id="ExpiryY">
+                        <option value="">Expiry Year</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                    </select>
+
+                    <div id="Line2">
+                        <input id="DebitName" type="text" placeholder="Name On Debit*">
+                        <input id="Back" type="number" placeholder="CVV">
+                        <button id="Button">Pay Now</button>
+                    </div>
+                </div>
+                <hr>
+
+                <div id="EMIpytm">
+                    <!-- <p id="EMI"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                    <p id="low"><i class="fa fa-angle-up" aria-hidden="true"></i></p> -->
+
+                    <img id="EMI"
+                        src="https://th.bing.com/th/id/OIP.OYzQl1A5JBLbOFCe6mw_-QHaD4?w=343&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                        alt="">
+                    <div>EMI</div>
+                    <p id="low"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+
+                    <!-- <img id="low" style="float: right;margin-right: 70px;"
+                        src="https://cdn-icons.flaticon.com/png/512/2985/premium/2985150.png?token=exp=1636618883~hmac=2cfe3f018f883063f5ff0d1769b44702"
+                        alt=""> -->
+                </div>
+                <hr>
+
+                <div id="Pytm_UPI">
+                    <img id="UPI" src="https://gadgetstouse.com/wp-content/uploads/2016/11/UPI-Logo.jpg" alt="">
+                    <div>UPI ID</div>
+                    <p id="low"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+
+                    <!-- <img id="arrow_lower" style="float: right;margin-right: 70px;"
+                        src="https://cdn-icons.flaticon.com/png/512/2985/premium/2985150.png?token=exp=1636618883~hmac=2cfe3f018f883063f5ff0d1769b44702"
+                        alt=""> -->
+                </div>
+                <hr>
+
+                <div id="netbanking">
+                    <img id="net" src="https://cdn-icons-png.flaticon.com/512/2261/2261588.png" alt="">
+                    <div>Net Banking</div>
+
+                    <p id="low"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+
+                    <!-- <img id="arrowlower" style="float: right;margin-right: 70px;"
+                        src="https://cdn-icons.flaticon.com/png/512/2985/premium/2985150.png?token=exp=1636618883~hmac=2cfe3f018f883063f5ff0d1769b44702"
+                        alt=""> -->
+                </div>
+                <hr>
+
+                <div id="CashOnDelivery">
+                    <img id="COD" src="cash-on-delivery.png" alt="">
+                    <div>Cash On Delivery</div>
+
+
+                    <!-- <img id="codarrow" style="float: right;margin-right: 70px;"
+                        src="https://cdn-icons.flaticon.com/png/512/2985/premium/2985150.png?token=exp=1636618883~hmac=2cfe3f018f883063f5ff0d1769b44702"
+                        alt=""> -->
+                </div>
+            </div>
+        </div>
+        <div class="cartTotalInfo">
+            <div id="pricing">
+                <div class="cartPricing">
+                    <p>Bag Total</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Shipping Charge</p>
+                    <p>0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Bag Subtotal</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Product Discount(s)</p>
+                    <p>0.00</p>
+                </div>
+                <div class="greenDisco">You will save ₹0 on this order</div>
+                <hr>
+                <div class="cartTotalPrice">
+                    <p>Total Payable</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="payment.js">
+
+</script>
+

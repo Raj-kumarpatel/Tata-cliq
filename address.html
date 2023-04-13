@@ -1,0 +1,134 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="nav2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="address.css">
+ 
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Montserrat:wght@200&family=Rubik&display=swap');
+
+
+* {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+  }
+    </style>
+</head>
+<!-----------------------------------------AFTER SELECTING PRODUCT CHECKOUT ADRESS CONFRIMATION PROCESS --------------------------------------------  -->
+
+<body>
+    <div id="nav2Container">
+        <img src="https://th.bing.com/th/id/R.f9fe3557bbdee85819ea50e545857f47?rik=RCu0z%2bdJ%2fXV9DA&riu=http%3a%2f%2fwww.pngimagesfree.com%2fLOGO%2fT%2fTata-CLiQ%2fTata-cliq-logo-PNG-Black-and-White.png&ehk=VYeaZBd8Ve6p2eYlCqbMtBUCGs9T28wKpCBCrGwTd8Q%3d&risl=&pid=ImgRaw&r=0" alt="" id="nav2logo">
+        <div id="nav2icon"><i id="nav2imog1" class="far fa-user-circle"></i><i id="nav2imog"
+                class="far fa-chevron-down"></i>
+
+        </div>
+        <div id="nav2pop">
+            <p id="nav2arrow"></p>
+            <ul id="nav2loginList">
+
+
+                <li><i id="nav2popIcon" class="fal fa-user-circle"></i>My account</li>
+                <li><i id="nav2popIcon" class="fal fa-briefcase"></i>Order History</li>
+                <li><i id="nav2popIcon" class="fal fa-bookmark"></i>Saved List</li>
+                <li><i id="nav2popIcon" class="fal fa-bell"></i>Alerts & Coupon</li>
+                <li><i id="nav2popIcon" class="fal fa-gift-card"></i>Gift Card</li>
+                <li><i id="nav2popIcon" class="fal fa-sack-dollar"></i>CLiQ Cash</li>
+                <li><i id="nav2popIcon" class="fal fa-cog"></i>Log Out</li>
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
+    <h1 id="title">Checkout</h1>
+
+    <div id="flexcon">
+        <div>
+            <div id="container">
+                <!-----ADD ADDRESS ->PINCODE/CITY/DISTRICT/STATE/LANDMARK----------------------------->
+                <div id="left">
+                    <h3>Add Shipping Address</h3>
+                    <form id="add">
+                        <input class="Rawat" type="text" placeholder="First Name*">
+                        <input class="Rawat" type="text" placeholder="Last Name*"><br><br>
+                      
+                        <input class="Ankit" id="city" type="text" placeholder="City/district*"><br><br>
+                        <input class="Ankit" id="state" type="text" placeholder="State*"><br><br>
+                        <select id="rad">
+                            <option value="">Landmark</option>
+
+                        </select>
+                    </form>
+                    <br><br><br><br>
+                    <!----- INPUTS TAGS---------TYPE--RADIO------HOME/OFFICE/MAKE THIS DEFAULT ADDRESS-------------->
+                    <form>
+                        <input type="radio" name="Home" value="">Home
+                        <input id="radio" type="radio" name="Home" value="">Office
+                        <br><br><br>
+                        <input type="radio" name="Make this default address" value="">Make this default address
+                    </form>
+                </div>
+                <!-- INPUTS TAGS------FIRST NAME/LAST NAME/ADDRESS/SPECIAL CHARACTER /PHONE NUMBER------------------>
+                <div id="right">
+                    <div id="clear">
+                        <button id="all"> Clear all</button>
+                    </div>
+                    <form id="names">
+                        <input class="Ankit" id="pin" type="text" placeholder="Enter Your Pincode"><br><br>
+                        <input id="Area" type="textArea" placeholder="Address*">
+                        <h4 id="limit">Character Limit : 120<br>
+                            Special characters allowed are - # & ( ) ' ' . , \ / + _</h4>
+                        <input class="Ankit" type="number" placeholder="Phone number*">
+                    </form>
+                    <br><br><br><br><br><br><br>
+                    <!-- BUTTONS ----- CANCEL & SAVE & CONTINUE ----------------------->
+                    <button id="red">Cancel</button>
+                    <button id="Save">
+                        Save & Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="priceCont">
+            <div id="pricing">
+                <div class="cartPricing">
+                    <p>Bag Total</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Shipping Charge</p>
+                    <p>0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Bag Subtotal</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Product Discount(s)</p>
+                    <p>0.00</p>
+                </div>
+                <div class="greenDisco">You will save ₹0 on this order</div>
+                <hr>
+                <div class="cartTotalPrice">
+                    <p>Total Payable</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="address.js"></script>
