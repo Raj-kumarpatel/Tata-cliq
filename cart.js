@@ -1,3 +1,32 @@
+// '''''''''''''''''''''''''''''''''''''''''''''trial'''''''''''''''''''''''''''''''''''''''''''''''
+// res();
+function res(){
+  
+    var arr=[];
+   
+    obj={
+        image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
+        name:"g",
+        description:"this is the best t-shirt you ever got",
+        price:700,
+        size:7,
+        color:"mixup",
+        discounted_price:800
+    }
+   
+    arr.push(obj);
+    obj={
+        image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
+        name:"g",
+        description:"this is the best t-shirt you ever got",
+        price:900,
+        size:7,
+        color:"mixup",
+        discounted_price:800
+    }
+    arr.push(obj);
+    localStorage.setItem("bagItem",JSON.stringify(arr))
+}
 
 
 // -------------------------------trial------------------------------------------------------------------
@@ -19,7 +48,7 @@ window.addEventListener('scroll',function(){
 // })
 
 
-var bagItem = localStorage.getItem('bagItem')||[];
+var bagItem = localStorage.getItem('bagItem');
 
 var productInfo = document.querySelector('.product-info');
 var productSide = document.querySelector('.product-side');
@@ -47,28 +76,25 @@ else{
     // div.setAttribute('class','x')
         div.innerHTML = `<div class="product">
         <div class="img">
-          <img src="${bagItem[i].image}" alt="">
+          <img src="${bagItem[i].image}"  onclick="../index.html"alt="">
         </div>
         <div class="details">
-        <pclass="name">${bagItem[i].name}</p>
-          <p class="product-name">${bagItem[i].description}</p>
-         
-          <p class="price">₹${bagItem[i].discounted_price}<p class="dprice">₹${bagItem[i].price}</p></p>
-          <div class="counter">
+        <p class="names"  style="font-size:17px">${bagItem[i].name}</p>
+          <p class="product-name"  style="font-size:17px">${bagItem[i].description}</p>
+          
+          <p class="price" style="color:green;font-weight:bold">₹${bagItem[i].discount}<p class="dprice" style="color:red">₹${bagItem[i].price}</p></p>
+          <div class="counter" style="font-size:17px" >
             Quantity:
-            <span class="down" onClick='decreaseCount(event, this,${i})'>-</span>
+            <span class="down"  style="color:red;font-weight:bolder"  onClick='decreaseCount(event, this,${i})'>-</span>
             <input type="text" value="1">
-            <span class="up" onClick='increaseCount(event, this , ${i})'>+</span>
+            <span style="color:green;font-weight:bolder" class="up" onClick='increaseCount(event, this , ${i})'>+</span>
           </div>
-          <div class="color-size">
-            <div class="rang">Color: <p class="color">${bagItem[i].color}</p></div>
-            
-          </div>
-          <div class="line"></div>
+      
+          <div class="line" style="font-weight:bolder" ></div>
           
             <div class="whist">
            
-              <p class="remove"  onclick="rem(${i})">Remove</p>
+              <p class="remove" style="color:red;font-size:17px" onclick="rem(${i})">Remove</p>
             </div>
           
         </div>
