@@ -10,11 +10,14 @@ function displayData(arr)
 {
     arr.forEach(function(ele){
         let imageDiv = document.createElement("div");
-        imageDiv.append(ele.image)
+        let image = document.createElement("img")
+        image.setAttribute("src",ele.image)
+        imageDiv.append(image)
 
         let contentDiv = document.createElement("div");
         let upperDiv = document.createElement("div");
         let bottomDiv = document.createElement("div");
+        bottomDiv.setAttribute("id","bottom")
 
         let name = document.createElement("h3");
         name.textContent=ele.name
@@ -31,13 +34,16 @@ function displayData(arr)
         h4.textContent="Available Offers"
 
         let div1 = document.createElement("div");
+        div1.setAttribute("class","divss")
         let image1 = document.createElement("img");
         image1.setAttribute("src","https://assets.tatacliq.com/medias/sys_master/images/46494116380702.png");
+       
         let offer1 = document.createElement("p");
         offer1.textContent="Up to 5% NeuCoins on Tata Neu HDFC Bank Credit Cards | No Promo Code RequiredEvery Spend. Every Time | 1 NeuCoin = Rs.1more"
         div1.append(image1,offer1);
 
         let div2 = document.createElement("div");
+        div2.setAttribute("class","divss")
         let image2 = document.createElement("img");
         image2.setAttribute("src","https://www.tatacliq.com/src/pdp/components/img/userOfferIcon.svg");
         let offer2 = document.createElement("p");
@@ -45,6 +51,7 @@ function displayData(arr)
         div2.append(image2,offer2);
 
         let div3 = document.createElement("div");
+        div3.setAttribute("class","divss")
         let image3 = document.createElement("img");
         image3.setAttribute("src","https://www.tatacliq.com/src/pdp/components/img/userOfferIcon.svg");
         let offer3 = document.createElement("p");
@@ -52,6 +59,7 @@ function displayData(arr)
         div3.append(image3,offer3);
 
         let div4 = document.createElement("div");
+        div4.setAttribute("class","divss")
         let image4 = document.createElement("img");
         image4.setAttribute("src","https://www.tatacliq.com/src/pdp/components/img/userOfferIcon.svg");
         let offer4 = document.createElement("p");
@@ -59,13 +67,16 @@ function displayData(arr)
         div4.append(image4,offer4);
 
         let div5 = document.createElement("div")
+        div5.setAttribute("id","buttonDiv")
         let buyBtn = document.createElement("button");
-        buyBtn.innerText="BUY"
+        buyBtn.setAttribute("id","buyButton")
+        buyBtn.innerText="BUY NOW"
         buyBtn.addEventListener("click", function(){
             goToBag(ele)
         })
 
         let addBtn = document.createElement("button");
+        addBtn.setAttribute("id","addButton")
         addBtn.innerText="Add To Bag"
         addBtn.addEventListener("click", function(){
             addToBagFun(ele);
@@ -87,5 +98,7 @@ function goToBag(ele) {
 
 function addToBagFun(ele) {
     console.log ("Addtobag working")
-    localStorage.setItem("my-product",JSON.stringify(ele))
+    let myArr = JSON.parse(localStorage.getItem("my-product"))||[];
+    myArr.push(ele)
+    localStorage.setItem("my-product",JSON.stringify(myArr))
 }

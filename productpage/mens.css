@@ -74,16 +74,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
   }
-   .discount-tag {
-    background-color: #da198d;
-    color: #ffffff;
-    padding: 5px;
-    font-size: 15px;
-    font-weight: bold;
-    width: 70px;
-    border-radius: 5px;
-}
-
+   
 #bottomDiv {
   display: flex;
   justify-content: space-between;

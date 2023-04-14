@@ -59,21 +59,12 @@ function displayProducts(arr)
         document.getElementById("products-cardDivRight").append(divCard);
     })
 }
-async function goToProduct(ele)
-{
+function goToProduct(ele)
+{ 
+    console.log("hey",ele)
+    localStorage.setItem("selected-product",JSON.stringify(ele))
     
-try {
-    let arr =[]
-    let id = ele.id
-    console.log("ID",id)
-    let url = 'http://localhost:3000/electronics/'+id
-    let response = await getData(url);
-    arr.push(response)
-    console.log("arr" ,typeof arr, "res", typeof response)
-    displayProducts(arr)
-    } catch (error) {
-        console.log(error)
-    }
+    window.location.href='../productdetails/productDetails.html'
 }
 async function getMyProducts ()
 {

@@ -59,21 +59,13 @@ function displayProducts(arr)
         document.getElementById("products-cardDivRight").append(divCard);
     })
 }
-async function goToProduct(ele)
-{
     
-try {
-    let arr =[]
-    let id = ele.id
-    console.log("ID",id)
-    let url = 'http://localhost:3000/women-dresses/'+id
-    let response = await getData(url);
-    arr.push(response)
-    console.log("arr" ,typeof arr, "res", typeof response)
-    displayProducts(arr)
-    } catch (error) {
-        console.log(error)
-    }
+function goToProduct(ele)
+{ 
+    console.log("hey",ele)
+    localStorage.setItem("selected-product",JSON.stringify(ele))
+    
+    window.location.href='../productdetails/productDetails.html'
 }
 async function getMyProducts ()
 {

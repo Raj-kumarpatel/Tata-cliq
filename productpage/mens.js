@@ -20,7 +20,7 @@ function displayProducts(arr)
 
         let image = document.createElement("img");
         image.setAttribute("src",ele.image);
-        image.style.width="70%"
+        image.style.width="70%";
 
         let name = document.createElement("h3");
         name.textContent=ele.name;
@@ -62,7 +62,7 @@ function goToProduct(ele)
     console.log("hey",ele)
     localStorage.setItem("selected-product",JSON.stringify(ele))
     
-    window.location.href='../productdetails/page1.html'
+    window.location.href='../productdetails/productDetails.html'
 // try {
 //     let arr =[]
 //     let id = ele.id
