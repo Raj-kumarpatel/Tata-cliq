@@ -27,7 +27,7 @@ font-family: 'Rubik', sans-serif;
 </head>
 <!-----------------------------------------AFTER SELECTING PRODUCT CHECKOUT ADRESS CONFRIMATION PROCESS --------------------------------------------  -->
 
-<body>
+<body id="bodyAdd">
     <div id="nav2Container">
         <img src="https://th.bing.com/th/id/R.f9fe3557bbdee85819ea50e545857f47?rik=RCu0z%2bdJ%2fXV9DA&riu=http%3a%2f%2fwww.pngimagesfree.com%2fLOGO%2fT%2fTata-CLiQ%2fTata-cliq-logo-PNG-Black-and-White.png&ehk=VYeaZBd8Ve6p2eYlCqbMtBUCGs9T28wKpCBCrGwTd8Q%3d&risl=&pid=ImgRaw&r=0" alt="" id="nav2logo">
         <div id="nav2icon"><i id="nav2imog1" class="far fa-user-circle"></i><i id="nav2imog"
@@ -54,15 +54,15 @@ font-family: 'Rubik', sans-serif;
 
     </div>
 
-    <h1 id="title">Checkout</h1>
+    
 
     <div id="flexcon">
         <div>
-            <div id="container">
+            <div id="addressContainer">
                 <!-----ADD ADDRESS ->PINCODE/CITY/DISTRICT/STATE/LANDMARK----------------------------->
-                <div id="left">
+                <div id="leftAdd">
                     <h3>Add Shipping Address</h3>
-                    <form id="add">
+                    <form id="add1">
                         <input class="Rawat" type="text" placeholder="First Name*">
                         <input class="Rawat" type="text" placeholder="Last Name*"><br><br>
                       
@@ -77,27 +77,25 @@ font-family: 'Rubik', sans-serif;
                     <!----- INPUTS TAGS---------TYPE--RADIO------HOME/OFFICE/MAKE THIS DEFAULT ADDRESS-------------->
                     <form>
                         <input type="radio" name="Home" value="">Home
-                        <input id="radio" type="radio" name="Home" value="">Office
-                        <br><br><br>
-                        <input type="radio" name="Make this default address" value="">Make this default address
+                        <input id="radioAdd" type="radio" name="Home" value="">Office
+                       
                     </form>
                 </div>
                 <!-- INPUTS TAGS------FIRST NAME/LAST NAME/ADDRESS/SPECIAL CHARACTER /PHONE NUMBER------------------>
-                <div id="right">
-                    <div id="clear">
-                        <button id="all"> Clear all</button>
+                <div id="rightAdd">
+                    <div id="clearAdd">
+                        <button id="allAdd "> Clear all</button>
                     </div>
-                    <form id="names">
+                    <form id="namesAdd">
                         <input class="Ankit" id="pin" type="text" placeholder="Enter Your Pincode"><br><br>
-                        <input id="Area" type="textArea" placeholder="Address*">
-                        <h4 id="limit">Character Limit : 120<br>
-                            Special characters allowed are - # & ( ) ' ' . , \ / + _</h4>
+                        <input id="AreaAdd" type="textArea" placeholder="Address*">
+                        <h4 id="limitAdd">Character Limit : 120</h4>
                         <input class="Ankit" type="number" placeholder="Phone number*">
                     </form>
                     <br><br><br><br><br><br><br>
                     <!-- BUTTONS ----- CANCEL & SAVE & CONTINUE ----------------------->
-                    <button id="red">Cancel</button>
-                    <button id="Save">
+                    <button id="redAdd">Cancel</button>
+                    <button id="SaveAdd">
                         Save & Continue
                     </button>
                 </div>
@@ -105,25 +103,25 @@ font-family: 'Rubik', sans-serif;
         </div>
         <div id="priceCont">
             <div id="pricing">
-                <div class="cartPricing">
+                <div class="cartPricingAdd">
                     <p>Bag Total</p>
                     <p class="cartRflot">0.00</p>
                 </div>
-                <div class="cartPricing">
+                <div class="cartPricingAdd">
                     <p>Shipping Charge</p>
                     <p>0.00</p>
                 </div>
-                <div class="cartPricing">
+                <div class="cartPricingAdd">
                     <p>Bag Subtotal</p>
                     <p class="cartRflot">0.00</p>
                 </div>
-                <div class="cartPricing">
+                <div class="cartPricingAdd">
                     <p>Product Discount(s)</p>
                     <p>0.00</p>
                 </div>
                 <div class="greenDisco">You will save ₹0 on this order</div>
                 <hr>
-                <div class="cartTotalPrice">
+                <div class="cartTotalPriceAdd">
                     <p>Total Payable</p>
                     <p class="cartRflot">0.00</p>
                 </div>

@@ -1,4 +1,4 @@
-#container {
+#containerAdd {
     height: 40px;
     width: 900px;
     margin-bottom: 5px;
@@ -7,20 +7,20 @@
     margin-top: 10px;
   }
   
-  #card {
+  #cardPay {
     height: 30px;
     width: 30px;
     display: inline-block;
     margin-right: 15px;
   }
   
-  #container > div {
+  #containerAdd > div {
     display: inline-block;
     vertical-align: 9px;
     margin-right: 670px;
   }
   
-  #arrow {
+  #arrowPay {
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -32,7 +32,7 @@
     display: none;
   }
   
-  #first {
+  #firstPay {
     height: 100px;
     width: 500px;
     border-top: 300px;
@@ -48,13 +48,13 @@
     margin-bottom: 10px;
   }
   
-  #name {
+  #namePay {
     height: 30px;
     width: 210px;
     margin-right: 15px;
   }
   
-  #select {
+  #selectPay {
     width: 130px;
     height: 30px;
   }
@@ -70,7 +70,7 @@
     margin-right: 20px;
   }
   
-  #btn {
+  #btnPay {
     width: 100px;
     height: 30px;
     border-radius: 20px;
@@ -143,13 +143,13 @@
     height: 30px;
   }
   
-  #Back {
+  #BackPay {
     width: 100px;
     height: 30px;
     margin-right: 20px;
   }
   
-  #Button {
+  #ButtonPay {
     width: 100px;
     height: 30px;
     border-radius: 20px;
@@ -180,7 +180,7 @@
     margin-right: 710px;
   }
   
-  #low {
+  #lowPay {
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -273,17 +273,17 @@
     display: inline-block;
   }
   
-  #box {
+  #boxPay {
     margin-left: 30px;
     margin-top: 10px;
   }
   
-  #box > div {
+  #boxPay > div {
     display: inline-block;
     margin-right: 5px;
   }
   
-  #number {
+  #numberPay {
     height: 20px;
     width: 30px;
     border: 2px solid black;
@@ -292,12 +292,12 @@
     font-weight: 600;
   }
   
-  #text {
+  #textPay {
     font-weight: bold;
     font-size: 20px;
   }
   
-  #main {
+  #mainPay {
     /* margin: auto; */
     margin: 10px;
     /* margin-top: 6%; */
@@ -326,7 +326,7 @@
     justify-content: space-evenly;
   }
   
-  .cartTotalInfo {
+  .cartTotalInfoPay {
     width: 300px;
     height: 300px;
     margin-top: 10px;
@@ -335,14 +335,14 @@
     border-radius: 5px;
   }
   
-  .cartPricing {
+  .cartPricingPay {
     margin: 20px 10px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
   }
   
-  .cartPricing p {
+  .cartPricingPay p {
     margin: 0;
   }
   
@@ -352,7 +352,7 @@
     color: green;
   }
   
-  .cartTotalPrice {
+  .cartTotalPricePay {
     display: flex;
     justify-content: space-between;
     margin: 30px 0px;

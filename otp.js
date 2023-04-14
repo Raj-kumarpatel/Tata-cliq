@@ -1,33 +1,33 @@
-function digitValidate(input) {
-    // allow only digits
-    input.value = input.value.replace(/\D/g, '');
+function digitValidate(inputField) {
+  // Validate input field to allow only digits
+  var regex = /[^0-9]/gi;
+  inputField.value = inputField.value.replace(regex, '');
+}
 
-    // move focus to next input on input
-    if (input.value.length === input.maxLength) {
-      tabChange(parseInt(input.id.slice(-1)) + 1);
+function tabChange(nextField) {
+  // Move focus to next input field when a digit is entered
+  var currentField = event.target.id;
+  if (event.target.value.length == 1) {
+    if (nextField <= 4) {
+      document.getElementById("inp" + nextField).focus();
     }
   }
+}
 
-  function tabChange(tabNum) {
-    // focus on next input
-    document.getElementById('inp' + tabNum)?.focus();
+function validateOTP() {
+  // Get user input and concatenate the digits
+  var userOTP = document.getElementById("inp1").value +
+                document.getElementById("inp2").value +
+                document.getElementById("inp3").value +
+                document.getElementById("inp4").value;
+  console.log("User entered OTP: ", userOTP);
+  console.log("Generated OTP: ", otp);
+
+  // Compare user input with the generated OTP
+  if (userOTP == otp) {
+    alert("OTP validation successful!");
+    window.location.replace("successfulPayment.html");
+  } else {
+    alert("Incorrect OTP. Please try again.");
   }
-
-  function verifyOTP() {
-    // get input values
-    var inp1 = document.getElementById('inp1').value;
-    var inp2 = document.getElementById('inp2').value;
-    var inp3 = document.getElementById('inp3').value;
-    var inp4 = document.getElementById('inp4').value;
-
-    // check if input values match
-    if (inp1 === '1' && inp2 === '2' && inp3 === '3' && inp4 === '4') {
-     //  alert('Payment successful');
-      window.location.href = "successfulPayment.html"; 
-    } else {
-      alert('Incorrect OTP');
-    }
-  }
-
-  // bind verifyOTP function to button click
-  document.querySelector('button').addEventListener('click', verifyOTP);
+}

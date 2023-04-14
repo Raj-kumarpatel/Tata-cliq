@@ -1,5 +1,5 @@
   /* -------------------------------------------------------TATA CLIQ CHECKOUT CSS PART-------------------------------------------------- */
-  body {
+  #bodyAdd {
     background-color: whitesmoke;
 }
 
@@ -10,7 +10,7 @@
 
 }
 
-#container {
+#addressContainer {
     display: flex;
     margin: 20px;
     height: 550px;
@@ -20,7 +20,7 @@
     border-radius: 5px;
 }
 
-#clear {
+#clearAdd {
 
     background-color: white;
     border: 1px solid white;
@@ -33,7 +33,7 @@
 }
 
 /* ------------------ TO CLEAR ALL THE INFORMATION OR REFRESS THE PAGE ---------------------- */
-#all {
+#allAdd {
     background-color: white;
     border: 1px solid white;
     text-decoration: underline;
@@ -41,7 +41,7 @@
 
 }
 
-#left {
+#leftAdd {
     height: 550px;
     width: 380px;
     margin-top: 20px;
@@ -50,7 +50,7 @@
 
 }
 
-#right {
+#rightAdd {
     width: 380px;
     margin-left: 40px;
     margin-top: 42px;
@@ -69,18 +69,18 @@
     margin-top: 30px;
 }
 
-#Area {
+#AreaAdd {
     margin-top: 5px;
     height: 60px;
     width: 380px;
 }
 
-#limit {
+#limitAdd {
     color: gray;
     vertical-align: top;
 }
 
-#red {
+#redAdd {
     background-color: white;
     height: 50px;
     width: 50px;
@@ -90,7 +90,7 @@
     cursor: pointer;
 }
 
-#Save {
+#SaveAdd {
     border: 1px solid red;
     background-color: red;
     color: white;
@@ -103,7 +103,7 @@
     cursor: pointer;
 }
 
-#radio {
+#radioAdd {
     margin-left: 100px;
 }
 
@@ -132,7 +132,7 @@
     border-radius: 5px;
 }
 
-.cartPricing {
+.cartPricingAdd {
     margin: 20px 10px;
     display: flex;
     justify-content: space-between;
@@ -145,7 +145,7 @@
     color: green;
 }
 
-.cartTotalPrice {
+.cartTotalPriceAdd {
     display: flex;
     justify-content: space-between;
     margin: 30px 0px;

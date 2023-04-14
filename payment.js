@@ -1,6 +1,6 @@
-var span = document.getElementById("container").addEventListener("click", myFnct)
-var div = document.getElementById("first")
-var arrow = document.getElementById("arrow")
+var span = document.getElementById("containerAdd").addEventListener("click", myFnct)
+var div = document.getElementById("firstPay")
+var arrow = document.getElementById("arrowPay")
 var arrowUpper = document.getElementById("arrowUpper")
 var count = 0;
 
@@ -46,12 +46,12 @@ function showData() {
         Dee.style.display = "none";
     }
 }
-document.getElementById("btn").addEventListener("click", checkdetails)
+document.getElementById("btnPay").addEventListener("click", checkdetails)
 function checkdetails() {
     // Checking card number length
     var cardlength = document.getElementById("cardNumber").value
     var cvv = document.getElementById("ccv").value
-    if (cardlength.length != 16 || cvv.length != 3) alert("Please enter valid credtionals")
+    if (cardlength.length != 16 && cvv.length != 3) alert("Please enter valid credentials")
 
     else {
         
@@ -63,13 +63,13 @@ function checkdetails() {
         }
     }
 
-document.getElementById("Button").addEventListener("click",dcheckdetails)
+document.getElementById("ButtonPay").addEventListener("click",dcheckdetails)
 
 function dcheckdetails() {
     // Checking card number length
 var cardlength=document.getElementById("DebitNumber").value
-var cvv=document.getElementById("Back").value
-if(cvv.length!=3 && cardlength.length!=16) alert("Please enter valid credtionals")
+var cvv=document.getElementById("BackPay").value
+if(cvv.length!=3 && cardlength.length!=16) alert("Please enter valid credentials")
 else {
    
     localStorage.removeItem("cartlist")
