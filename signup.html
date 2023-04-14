@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="signup.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
     <script src="https://kit.fontawesome.com/b09ee9b84f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="arpit"></div>
+
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
@@ -19,10 +22,11 @@
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registration</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Sign Up</button>
+                <p style="color: red;font-weight: bold;" id="show2"></p>
+                <input type="text" placeholder="Name" id="name" required="required"/>
+                <input type="email" placeholder="Email" id="email" required="required"/>
+                <input type="password" placeholder="Password" id="password" required="required"/>
+                <button id="signupreal">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
@@ -34,10 +38,11 @@
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your account</span>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
+                <p id="show" style="color: red;font-weight: bold;" ></p>
+                <input type="email" placeholder="Email" id="loginmail" required="required"/>
+                <input type="password" placeholder="Password" id="loginpass" required="required"/>
                 <a href="#">Forgot your password?</a>
-                <button>Sign In</button>
+                <button id="signinreal">Sign In</button>
             </form>
         </div>
         <div class="overlay-container">
@@ -66,16 +71,6 @@
     </footer> -->
 </body>
 </html>
-<script>
-    const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
-
-signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
-});
-</script>
+    <script src="signup.js" >
+      
+    </script>
