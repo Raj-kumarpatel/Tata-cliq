@@ -1,0 +1,325 @@
+{
+  "men-dresses": [
+    {
+      "id": 1,
+      "name": "Crocodile",
+      "description": "Crocodile Multicolor Regular Fit Check Cotton Shirt",
+      "price":"2299",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017136986_437Wx649H_202304081455471.jpeg",
+      "discount" : 25
+    },
+    {
+      "id": 2,
+      "name": "WES Casuals",
+      "description": " WES Casuals by Westside Lilac Slim-Fit Shirt",
+      "price":"999",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122640_437Wx649H_202304071800431.jpeg",
+      "discount" : 14
+    },
+    {
+      "id": 3,
+      "name": "ETA",
+      "description": "ETA by Westside Beige Striped Resort-Fit Shirt",
+      "price":"1299",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122653_437Wx649H_202304071801231.jpeg",
+      "discount" : 55
+    }
+    ,{
+      "id": 4,
+      "name": "Nuon Men",
+      "description": " Nuon by Westside Peach Checkered Relaxed-Fit Shirt",
+      "price":"1199",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122631_437Wx649H_202304071800421.jpeg",
+      "discount" : 33
+    },
+    {
+      "id": 5,
+      "name": "Ascot",
+      "description": "Ascot by Westside grey printed relaxed Shirt",
+      "price":"2499",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017137110_437Wx649H_202304081500461.jpeg",
+      "discount" : 80
+    },
+    {
+      "id": 6,
+      "name": "Crocodile",
+      "description": "Crocodile Multicolor Regular Fit Check Cotton Shirt",
+      "price":"1179",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017136986_437Wx649H_202304081455471.jpeg",
+      "discount" : 75
+    },
+    {
+      "id": 7,
+      "name": "WES Casuals",
+      "description": " WES Casuals by Westside Lilac Slim-Fit Shirt",
+      "price":"1799",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122640_437Wx649H_202304071800431.jpeg",
+      "discount" : 60
+    },
+    {
+      "id": 8,
+      "name": "ETA",
+      "description": "ETA by Westside Beige Striped Resort-Fit Shirt",
+      "price":"2299",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122653_437Wx649H_202304071801231.jpeg",
+      "discount" : 5
+    }
+    ,{
+      "id": 9,
+      "name": "Nuon Men",
+      "description": " Nuon by Westside Peach Checkered Relaxed-Fit Shirt",
+      "price":"799",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122631_437Wx649H_202304071800421.jpeg",
+      "discount" : 45
+    },
+    {
+      "id": 10,
+      "name": "Ascot",
+      "description": "Ascot by Westside grey printed relaxed Shirt",
+      "price":"2699",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017137110_437Wx649H_202304081500461.jpeg",
+      "discount" : 50
+    }
+  ],
+  
+  "kids-wear": [
+    {
+      "id": 1,
+      "name": "Lil Drama",
+      "description": "Lil Drama Kids Navy & White Printed Full Sleeves Kurta with Pyjamas",
+      "price":"2783",
+      "image" : "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015833538_437Wx649H_202212250025221.jpeg",
+      "discount" : 22
+    },
+    {
+      "id": 2,
+      "name": "LilPicks",
+      "description": "LilPicks Kids Red Printed Lehenga Cholis",
+      "price":"2290",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014908294_437Wx649H_202210191010484.jpeg",
+      "discount" : 12
+      
+    },
+    {
+      "id": 3,
+      "name": "Lil Drama",
+      "description": "Lil Drama Kids Purple & White Printed Full Sleeves Kurta with Pyjamas",
+      "price":"893",
+      "image" : "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015833577_437Wx649H_202212250027181.jpeg",
+      "discount" : 10
+    }
+    ,{
+      "id": 4,
+      "name": "LilPicks",
+      "description": "LilPicks Kids Black Regular Fit Lehenga Cholis",
+      "price":"2983",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014902577_437Wx649H_202210190517261.jpeg",
+      "discount" : 30
+    },
+    {
+      "id": 5,
+      "name": "Kiddopanti",
+      "description": "Kiddopanti Kids Red & White Printed Full Sleeves Kurta with Pyjamas",
+      "price":"499",
+      "image" : "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016576532_437Wx649H_202302180216441.jpeg",
+      "discount" : 3
+    },
+    {
+      "id": 6,
+      "name": "Lil Drama",
+      "description": "Lil Drama Kids Navy & White Printed Full Sleeves Kurta with Pyjamas",
+      "price":"783",
+      "image" : "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015833538_437Wx649H_202212250025221.jpeg",
+      "discount" : 15
+    },
+    {
+      "id": 7,
+      "name": "LilPicks",
+      "description": "LilPicks Kids Red Printed Lehenga Cholis",
+      "price":"1290",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014908294_437Wx649H_202210191010484.jpeg",
+      "discount" : 18
+    },
+    {
+      "id": 8,
+      "name": "Lil Drama",
+      "description": "Lil Drama Kids Purple & White Printed Full Sleeves Kurta with Pyjamas",
+      "price":"893",
+      "image" : "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015833577_437Wx649H_202212250027181.jpeg",
+      "discount" : 35
+    }
+    ,{
+      "id": 9,
+      "name": "LilPicks",
+      "description": "LilPicks Kids Black Regular Fit Lehenga Cholis",
+      "price":"1983",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014902577_437Wx649H_202210190517261.jpeg",
+      "discount" : 25
+    },{
+      "id": 10,
+      "name": "LilPicks",
+      "description": "LilPicks Kids Black Regular Fit Lehenga Cholis",
+      "price":"1983",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014902577_437Wx649H_202210190517261.jpeg",
+      "discount" : 40
+    }
+  ],
+
+  "women-dresses": [
+    {
+      "id": 1,
+      "name": "AND",
+      "description": "AND Grey Check T Shirt",
+      "price":"1618",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017121928_437Wx649H_202304071705534.jpeg",
+      "discount" : 25
+    },
+    {
+      "id": 2,
+      "name": "FLAWLESS",
+      "description": "Flawless Multicolor floral print A line dress",
+      "price":"1234",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122225_437Wx649H_202304071733371.jpeg",
+      "discount" : 22
+    },
+    {
+      "id": 3,
+      "name": "FLAWLESS",
+      "description": "Flawless Coral A Line Dress",
+      "price":"1899",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122247_437Wx649H_202304071734441.jpeg",
+      "discount" : 12
+    }
+    ,{
+      "id": 4,
+      "name": "Juniper",
+      "description": "Juniper Navy Printed Maxi Dress",
+      "price":"2999",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017136158_437Wx649H_202304080316401.jpeg",
+      "discount" : 20
+    },
+    {
+      "id": 5,
+      "name": "Indya",
+      "description": "Indya printed Pink A Line Dress",
+      "price":"2499",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017121032_437Wx649H_202304071413413.jpeg",
+      "discount" : 18
+    },
+    {
+      "id": 6,
+      "name": "AND",
+      "description": "AND Grey Check T Shirt",
+      "price":"1618",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017121928_437Wx649H_202304071705534.jpeg",
+      "discount" : 72
+    },
+    {
+      "id": 7,
+      "name": "FLAWLESS",
+      "description": "Flawless Multicolor floral print A line dress",
+      "price":"1234",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122225_437Wx649H_202304071733371.jpeg",
+      "discount" : 40
+    },
+    {
+      "id": 8,
+      "name": "FLAWLESS",
+      "description": "Flawless Coral A Line Dress",
+      "price":"1899",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017122247_437Wx649H_202304071734441.jpeg",
+      "discount" : 15
+    }
+    ,{
+      "id": 9,
+      "name": "Juniper",
+      "description": "Juniper Navy Printed Maxi Dress",
+      "price":"2999",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017136158_437Wx649H_202304080316401.jpeg",
+      "discount" : 10
+    },
+    {
+      "id": 10,
+      "name": "Indya",
+      "description": "Indya printed Pink A Line Dress",
+      "price":"2499",
+      "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017121032_437Wx649H_202304071413413.jpeg",
+      "discount" : 7
+    }
+  ],
+  "electronics": [
+    {
+      "id": 1,
+      "name": "Boat",
+      "description": "boAt Airdopes 121 v2 Earbuds with Upto 14 Hours Playback, LED Indicators (Active Black)",
+      "price":"1049",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013107469_437Wx649H_202205122345311.jpeg",
+      "discount" : 50
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "description": "Samsung Galaxy Buds 2 True Wireless In-Ear Earbuds with Mic (Graphite)",
+      "price":"5845",
+      "image" : "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010437583_437Wx649H_202108271528281.jpeg",
+      "discount" : 60
+    },
+    {
+      "id": 3,
+      "name": "Amazon Echo Dot",
+      "description": "Amazon Echo Dot (3rd Gen) Smart Speaker With Alexa (Black)",
+      "price":"3499",
+      "image" : "https://img.tatacliq.com/images/i6/437Wx649H/MP000000004008535_437Wx649H_20200802113923.jpeg",
+      "discount" : 72
+    }
+    ,{
+      "id": 4,
+      "name": "Samsung",
+      "description": "Samsung 406W 7.1.2 Channel Soundbar (HW-Q900T/XL, Black)",
+      "price":"1199",
+      "image" : "https://img.tatacliq.com/images/i7/437Wx649H/MP000000007863089_437Wx649H_202010042154261.jpeg",
+      "discount" : 80
+    },
+    {
+      "id": 5,
+      "name": "Boat",
+      "description": "boAt AAVANTE BAR 1160 T 60W Soundbar with 2.0 Channel boAt Signature Sound, EQ Modes (Active Black)",
+      "price":"4099",
+      "image" : "https://img.tatacliq.com/images/i6/437Wx649H/MP000000007356631_437Wx649H_20200724235042.jpeg",
+      "discount" : 62
+    },
+    {
+      "id": 6,
+      "name": "JBL",
+      "description": "JBL Bar 2.1 Deep Bass Soundbar with Wireless Subwoofer (Black)",
+      "price":"29799",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014228671_437Wx649H_202208252100271.jpeg",
+      "discount" : 55
+    },
+    {
+      "id": 7,
+      "name": "Sandisk",
+      "description": "SanDisk Extreme Portable SDSSDE61-1T00-G25 1 TB External SSD (Blue), 1050MB/s R, 1000MB/s W",
+      "price":"9999",
+      "image" : "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009110468_437Wx649H_202103182017541.jpeg",
+      "discount" : 92
+    },
+    
+    {
+      "id": 9,
+      "name": "Crucial",
+      "description": "Crucial MX500 CT250MX500SSD1 250GB SATA 2.5 inch Internal Solid State Drive (Silver)",
+      "price":"2498",
+      "image" : "https://img.tatacliq.com/images/i4/437Wx649H/MP000000004924098_437Wx649H_20190616095244.jpeg",
+      "discount" : 85
+    },
+    {
+      "id": 10,
+      "name": "Google",
+      "description": "Google Nest Hub (2nd Gen) - Charcoal",
+      "price":"5999",
+      "image" : "https://img.tatacliq.com/images/i8/437Wx649H/MP000000011551183_437Wx649H_202201141831183.jpeg",
+      "discount" : 45
+    }
+  ]
+}

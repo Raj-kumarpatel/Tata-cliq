@@ -4,9 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
 </head>
 <body>
-    here is your cart
+    
+=======
+    <title>Shoping Cart - TATA CLiQ</title>
+    <link rel="icon" href="unnamed.png" type="png">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="wrap">
+      
+        <div class="nav">
+            <div class="logo">
+                <img src="img/tatacliqlogo.jpeg"  style="width: 80px;" alt="">
+            </div>
+            <div class="accounts">
+                <div class="profile-logo">
+                    <div >
+                    <img src="img/unnamed.png" alt="" style="width: 40px;height:40px;">
+                    </div>
+                    <p class="UserName"></p>
+                    <img src="img/white-arrow-png-41944.png" style="width:20px;gap:10px;margin-top:16px;" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="nav sec">
+            <div class="logo my">
+              <b style="letter-spacing: 1.5px; color :  rgb(32, 30, 30);font-weight:bold;"> My Bag</b> 
+            </div>
+            <div class="accounts">
+                <div class="profile-logo b">
+                    Delhi , 110001
+                    <input type="text" placeholder="Change PIN Code">
+                </div>
+            </div>
+        </div> 
+        <div class="info">
+            Apply a relevant <b>coupon code</b> here to avail any additional discount. Applicable <b>cashback</b> if any will be credited to your account as per T&C.
+          </div>
+            <div class="empty">
+             <img src="img/emptycard.png" alt="">
+            <div>Your bag is empty! Let’s fill it up shall we?</div>
+              <div class="conti"> 
+               <div class="continue" onclick="location.href='../index.html'" style="cursor: pointer;">Continue Shopping</div>
+              
+              </div>
+        </div>
+        <div class="product-info">
+            <div class="product-side">
+              
+            </div> 
+            <div class="price-side">
+              <div class="coupon-sec">
+                <div class="coupon">
+                  <div class="logoc">
+                    <img src="img/coupon-1.7544dbecd2f7.svg" alt="...">
+                    Coupon
+                  </div>
+                  <div class="input">
+                    <div onclick="coupon(20)">Apply</div>
+                  <input id="coupe" type="text" placeholder="eg: masai20" required>
+                  </div>
+                </div>
+              </div>
+              <div class="calculation">
+                <div class="base">
+                  <div class="free-ship">
+                    <div>
+                    <img src="img/shipping-truck..svg" alt="">
+                    </div>
+                    <div>Congratulations!! Your order is eligible for FREE Shipping</div>
+                  </div>
+                  <div class="linee"></div>
+                  <div class="price-des">
+                    <div>Bag Total</div>
+                    <div class="money">₹ <p class="total">13095.00</p></div>
+                  </div>
+                  <div class="price-des">
+                   <div>Shipping Charge</div>
+                   <div class="money free">FREE</div>
+                 </div>
+                 <div class="price-des">
+                   <div>Bag Subtotal</div>
+                   <div class="money">₹ <p class="total">13095.00</p></div>
+                 </div>
+                 <div class="price-des">
+                   <div>Product Discount(s)</div>
+                   <div class="money">-₹ <p class="total" id="dif">3420.00</p></div>
+                 </div>
+                 <div class="save">You will save ₹<div id="fl" style="display: inline;">3420.00</div> on this order</div>
+                 <div class="line" style="margin-top: 30px;"></div>
+                 <div class="total-check">
+                   <div class="totals">Total <div>₹<p class="tot"></p></div></div>
+                   <div class="checkout"  onclick="location.href='checkout.html'">Checkout </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="secure">
+              <div class="card">
+                <img src="img/cart_confidence_callout_1.png" alt="">
+                <img src="img/cash.png" alt="">
+                <img src="img/net.png" alt="">
+              </div>
+              <div class="ssl">
+                <img src="img/slh.png" alt="">
+                <div class="sec-pay">
+                  <p class="sec">SSL SECURED PAYMENT</p>
+                  <p class="det">Your information is protected by 256-bit SSL encryption</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+       
+       
+        <script src="cart.js"></script>   
+
 </body>
 </html>

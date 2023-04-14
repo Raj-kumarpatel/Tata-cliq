@@ -1,0 +1,154 @@
+  /* -------------------------------------------------------TATA CLIQ CHECKOUT CSS PART-------------------------------------------------- */
+  #bodyAdd {
+    background-color: whitesmoke;
+}
+
+/*-------------------------------TATA CLIQ--------------------------------------------------------- */
+#title {
+    color: black;
+    margin: 30px 0px 10px 30px;
+
+}
+
+#addressContainer {
+    display: flex;
+    margin: 20px;
+    height: 550px;
+    width: 850px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+#clearAdd {
+
+    background-color: white;
+    border: 1px solid white;
+    color: gray;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+/* ------------------ TO CLEAR ALL THE INFORMATION OR REFRESS THE PAGE ---------------------- */
+#allAdd {
+    background-color: white;
+    border: 1px solid white;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#leftAdd {
+    height: 550px;
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+#rightAdd {
+    width: 380px;
+    margin-left: 40px;
+    margin-top: 42px;
+
+}
+
+.Ankit {
+    margin-top: 30px;
+    height: 30px;
+    width: 380px;
+}
+
+.Rawat {
+    height: 30px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+#AreaAdd {
+    margin-top: 5px;
+    height: 60px;
+    width: 380px;
+}
+
+#limitAdd {
+    color: gray;
+    vertical-align: top;
+}
+
+#redAdd {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    color: red;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#SaveAdd {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#radioAdd {
+    margin-left: 100px;
+}
+
+
+#rad {
+    margin-top: 36px;
+    height: 30px;
+    width: 380px;
+    margin-left: 1%;
+}
+
+/* style by bharat */
+#flexcon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#priceCont {
+    background-color: white;
+    height: 300px;
+    padding: 30px;
+    width: 300px;
+    margin-top: 20px;
+    /* position: sticky; */
+    /* right: 0; */
+    border-radius: 5px;
+}
+
+.cartPricingAdd {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.greenDisco {
+    margin: 30px 0px;
+    font-size: 18px;
+    color: green;
+}
+
+.cartTotalPriceAdd {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
