@@ -56,6 +56,15 @@
     font-size: 20px;
   }
 
+  .discount-tag {
+    background-color: #da198d;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70px;
+    border-radius: 5px;
+}
   #products-cardDivRight {
     display: grid;
     grid-template-columns: repeat(3,300px);
