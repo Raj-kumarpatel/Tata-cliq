@@ -1,32 +1,32 @@
 // '''''''''''''''''''''''''''''''''''''''''''''trial'''''''''''''''''''''''''''''''''''''''''''''''
-// res();
-function res(){
+// // res();
+// function res(){
   
-    var arr=[];
+//     var arr=[];
    
-    obj={
-        image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
-        name:"g",
-        description:"this is the best t-shirt you ever got",
-        price:700,
-        size:7,
-        color:"mixup",
-        discounted_price:800
-    }
+//     obj={
+//         image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
+//         name:"g",
+//         description:"this is the best t-shirt you ever got",
+//         price:700,
+//         size:7,
+//         color:"mixup",
+//         discounted_price:800
+//     }
    
-    arr.push(obj);
-    obj={
-        image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
-        name:"g",
-        description:"this is the best t-shirt you ever got",
-        price:900,
-        size:7,
-        color:"mixup",
-        discounted_price:800
-    }
-    arr.push(obj);
-    localStorage.setItem("bagItem",JSON.stringify(arr))
-}
+//     arr.push(obj);
+//     obj={
+//         image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
+//         name:"g",
+//         description:"this is the best t-shirt you ever got",
+//         price:900,
+//         size:7,
+//         color:"mixup",
+//         discounted_price:800
+//     }
+//     arr.push(obj);
+//     localStorage.setItem("my-product",JSON.stringify(arr))
+// }
 
 
 // -------------------------------trial------------------------------------------------------------------
@@ -48,19 +48,19 @@ window.addEventListener('scroll',function(){
 // })
 
 
-var bagItem = localStorage.getItem('bagItem');
+var my-product = localStorage.getItem('my-product');
 
 var productInfo = document.querySelector('.product-info');
 var productSide = document.querySelector('.product-side');
 var sum  = 0;
 var diff = 0;
-if(bagItem == null){
+if(my-product == null){
 document.querySelector('.empty').style.display = 'flex';
 // alert("nill")
 } 
 else{
-    bagItem = JSON.parse(bagItem)
-      if(bagItem.length == 0){
+    my-product = JSON.parse(my-product)
+      if(my-product.length == 0){
         document.querySelector('.empty').style.display = 'flex';
        }
     else{
@@ -71,18 +71,18 @@ else{
    // product info display flex
 
     
-    for(var i = 0; i < bagItem.length; i++){
+    for(var i = 0; i < my-product.length; i++){
         var div = document.createElement('div');
     // div.setAttribute('class','x')
         div.innerHTML = `<div class="product">
         <div class="img">
-          <img src="${bagItem[i].image}"alt="">
+          <img src="${my-product[i].image}"alt="">
         </div>
         <div class="details">
-        <p class="names"  style="font-size:17px">${bagItem[i].name}</p>
-          <p class="product-name"  style="font-size:17px">${bagItem[i].description}</p>
+        <p class="names"  style="font-size:17px">${my-product[i].name}</p>
+          <p class="product-name"  style="font-size:17px">${my-product[i].description}</p>
           
-          <p class="price" style="color:green;font-weight:bold">₹${bagItem[i].discount}<p class="dprice" style="color:red">₹${bagItem[i].price}</p></p>
+          <p class="price" style="color:green;font-weight:bold">₹${my-product[i].discount}<p class="dprice" style="color:red">₹${my-product[i].price}</p></p>
           <div class="counter" style="font-size:17px" >
             Quantity:
             <span class="down"  style="color:red;font-weight:bolder"  onClick='decreaseCount(event, this,${i})'>-</span>
@@ -110,9 +110,9 @@ else{
      
       
      var quant=JSON.parse(localStorage.getItem("quantity"));
-     sum += Number(bagItem[i].price);
+     sum += Number(my-product[i].price);
     //  window.reload();
-    diff += Number(bagItem[i].discounted_price);
+    diff += Number(my-product[i].discounted_price);
     
     
     }
@@ -147,8 +147,8 @@ function increaseCount(a, b , idx) {
   value = isNaN(value) ? 0 : value;
   value++;
   input.value = value;
-  x +=  Number(JSON.parse(localStorage.bagItem)[idx].price)
-  z += Number(JSON.parse(localStorage.bagItem)[idx].discounted_price)
+  x +=  Number(JSON.parse(localStorage.my-product)[idx].price)
+  z += Number(JSON.parse(localStorage.my-product)[idx].discounted_price)
   y(+x,+z)
 }
 
@@ -159,8 +159,8 @@ function decreaseCount(a, b , idx) {
     value = isNaN(value) ? 0 : value;
     value--;
     input.value = value;
-    x -=  Number(JSON.parse(localStorage.bagItem)[idx].price)
-    z -= Number(JSON.parse(localStorage.bagItem)[idx].discounted_price)
+    x -=  Number(JSON.parse(localStorage.my-product)[idx].price)
+    z -= Number(JSON.parse(localStorage.my-product)[idx].discounted_price)
     console.log(x,z)
     y(+x,+z)
     
@@ -206,11 +206,11 @@ function coupon(c){
 var payable = document.querySelector('.tot');
 console.log(payable.value);
 function rem(idy){
-  console.log(bagItem[idy]);
-  bagItem.splice(idy,idy+1)
-  if(bagItem.length == 0){
+  console.log(my-product[idy]);
+  my-product.splice(idy,idy+1)
+  if(my-product.length == 0){
    document.querySelector('.empty').style.display = 'flex';
   }
-  localStorage.setItem('bagItem',JSON.stringify(bagItem))
+  localStorage.setItem('my-product',JSON.stringify(my-product))
   location.reload();
 }
