@@ -76,7 +76,7 @@ else{
     // div.setAttribute('class','x')
         div.innerHTML = `<div class="product">
         <div class="img">
-          <img src="${bagItem[i].image}"  onclick="../index.html"alt="">
+          <img src="${bagItem[i].image}"alt="">
         </div>
         <div class="details">
         <p class="names"  style="font-size:17px">${bagItem[i].name}</p>
