@@ -1,0 +1,62 @@
+#details-container
+{
+    display: flex;
+    gap: 20px;
+}
+.divss
+{
+    display: flex;
+    gap: 10px;
+}
+body p {
+    color:grey;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  body h3 , h4
+  {
+    color:black;
+    font-family: sans-serif;
+  }
+  #bottom > #buttonDiv {
+    display: flex;
+    gap: 15px;
+  }
+  #bottom > div > #addButton{
+    background-color: #da198d;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #da198d;;
+}
+#bottom > div > #buyButton{
+    background-color: #ffffff; 
+    color:#da198d;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #da198d;
+}
+#bottom #addButton:hover {
+    background-color: #ffffff;
+    color: #da198d;
+}
+
+/* #bottom #buyButton:hover {
+    background-color:#da198d; 
+    color: #ffffff;
+} */
+
+#bottom > .divss > img 
+{
+   margin-top: 16px;
+    height: 25px;
+}
+  

@@ -1,0 +1,153 @@
+#mainProductContent {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+  }
+
+  #filter-productsDivLeft {
+    flex-basis: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #brand {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #filterPrice {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #right-sideDiv {
+   
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #sort-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  #sort-section >label
+  {
+    font-size: 32px;
+    text-align: center;
+    color: #120101d9;
+    margin-right: 18px;
+    margin-top: 7px;
+  }
+
+  #sort-select {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: grey;
+    color:#ffffff;
+    font-size: 20px;
+  }
+
+  #products-cardDivRight {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  .card-childDivs {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .card-childDivs:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+   .discount-tag {
+    background-color: #da198d;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#bottomDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottomDiv button 
+{
+    background-color: rgb(53, 53, 53);
+    color: #ffffff;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filter-productsDivLeft .labels 
+{
+  color: #120101d9;
+  font-size:xx-large;
+}
+
+#filter-productsDivLeft > #first > #brand 
+{
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: grey;
+  color:#ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#filter-productsDivLeft
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+}
+
+#third .checkboxlabels{
+  display: block;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.third-divs 
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff7a;
+}
+body p {
+    color:grey;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  body h2 
+  {
+    color:black;
+    font-size: 28px;
+    font-family: sans-serif;
+  }
