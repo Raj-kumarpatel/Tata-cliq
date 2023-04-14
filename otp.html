@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP</title>
+  <link rel="stylesheet" href="otp.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+  <script>
+    // Generate a random 4-digit number
+    var otp = Math.floor(Math.random() * 9000) + 1000;
+
+    // Display the OTP in an alert popup
+    alert("Your OTP is: " + otp);
+  </script>
+
+</head>
+<body id="bodyotp">
+  <!-- Import navbar -->
+  <!-- <div id="webBox"> -->
+  
+    <div id="navbar"></div>
+    
+
+    <div id="parentOtp">
+      <div id="child1Otp">
+        <h1>Enter OTP</h1>
+        <hr>
+      </div>
+
+        <div id="child2Otp">
+          <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)' maxlength=1 id="inp1" pattern="[0-9]{1}" required>
+          <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)' maxlength=1 id="inp2" pattern="[0-9]{1}" required>
+          <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)' maxlength=1 id="inp3" pattern="[0-9]{1}" required>
+          <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(4)' maxlength=1 id="inp4" pattern="[0-9]{1}" required>
+        </div>
+
+        <div id="child3Otp">
+          <button id="btnOtp" onclick="validateOTP()">Verify</button>
+        </div>
+    <!-- </div> -->
+<!-- </div> -->
+
+</body>
+<script src="otp.js"></script>
+</html>
