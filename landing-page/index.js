@@ -26,3 +26,9 @@
            len = 4;
           }
     }
+    window.addEventListener('scroll',function(){
+      var navbar = document.getElementById("navbar");
+      // var navbar2 = document.querySelector(".sec");
+      navbar.classList.toggle('sticky',window.scrollY)
+      // navbar2.classList.toggle('sticky1',window.scrollY)
+      })
