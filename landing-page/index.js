@@ -26,9 +26,15 @@
            len = 4;
           }
     }
+
+    let user=localStorage.getItem("currentname")
+    document.querySelector(".dropbtn").textContent=user
+    // let a=document.querySelector(".dropbtn").value
+    // console.log(a)
     window.addEventListener('scroll',function(){
       var navbar = document.getElementById("navbar");
       // var navbar2 = document.querySelector(".sec");
       navbar.classList.toggle('sticky',window.scrollY)
       // navbar2.classList.toggle('sticky1',window.scrollY)
       })
+
