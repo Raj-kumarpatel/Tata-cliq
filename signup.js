@@ -16,7 +16,7 @@ signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });
 var arr =JSON.parse(localStorage.getItem("credentials"))||[]
-signupreal.addEventListener('click', () => {
+signupreal.addEventListener('click', (event) => {
     event.preventDefault()
     let newname=document.getElementById("name").value
     let newemail=document.getElementById("email").value
@@ -39,7 +39,7 @@ signupreal.addEventListener('click', () => {
     // document.getElementById("password").value=""
 });
 
-signinreal.addEventListener("click",() => {
+signinreal.addEventListener("click",(event) => {
     event.preventDefault()
      let loginmail=document.getElementById("loginmail").value
      let loginpass=document.getElementById("loginpass").value
@@ -49,10 +49,10 @@ signinreal.addEventListener("click",() => {
 
         if(loginmail==ele.email && loginpass==ele.password){
             console.log("hurray")
-            window.confirm("Hurray! Log in successful.  You will will be redirected to Home Page")
+            // alert("Hurray! Log in successful.  You will will be redirected to Home Page")
             window.location.assign("./landing-page/index.html");
-            
-            document.getElementById("dropbtn").textContent=ele.name
+            localStorage.setItem("currentname", ele.name)
+            // document.getElementById("dropbtn").textContent=ele.name
             f=1
         }
      })

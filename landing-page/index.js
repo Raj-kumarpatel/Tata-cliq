@@ -25,3 +25,7 @@
            len = 4;
           }
     }
+    let user=localStorage.getItem("currentname")
+    document.querySelector(".dropbtn").textContent=user
+    // let a=document.querySelector(".dropbtn").value
+    // console.log(a)
