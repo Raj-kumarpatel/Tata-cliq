@@ -8,67 +8,173 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="../navbar.css">
 
+ <script src="https://kit.fontawesome.com/b09ee9b84f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div id="navbar">
-    <div id="logobox">
+  <div id="navbar-container"></div>
+  <div id="navbar">
+      <div id="logobox">
 
-        <div id="logocontainer">
-            <img src="https://github.com/Subham-Abhishek/TataCLiQ-Clone/blob/master/images/screencapture-tatacliq-2021-05-28-21_43_50.png?raw=true" alt="tatalogo">
-        </div>
-    </div>
-    <div id="rightnav">
-        <div id="rightuppernav">
-          <div style="padding-left: 20px;">Tata CliQ Luxury </div>
-          <div id="rightupperright" style="padding-right: 60px;">
-                <div>CLiQ Cash</div>
-                <div>Gift Card</div>
-                <div>CliQ Care</div>
-                <div>Track Orders</div>
-                <!-- <div id="signup"><a href="signup.html">Sign In /Sign Up</a></div> -->
-                <div class="dropdown">
-                    <button class="dropbtn">Sign Up / Sign In</button>
-                    <div class="dropdown-content">
-                      <a href="signup.html"><button id="signbtn">LogIn/Register</button></a>
-                      <a href="#"><i class="fa-regular fa-user" style="font-size:23px;"></i>  My Account</a>
-                      <a href="#"> <i class="fa fa-shopping-bag" style="font-size:23px;"></i>Order History</a>
-                      <a href="#"><i class="fa-sharp fa-regular fa-heart" style="font-size: 1.5em;"></i>My WishList</a>
-                    </div>
-                  </div>
+          <div id="logocontainer"><a href="./landing-page/index.html">
+
+              <img src="https://github.com/Subham-Abhishek/TataCLiQ-Clone/blob/master/images/screencapture-tatacliq-2021-05-28-21_43_50.png?raw=true" alt="tatalogo">
+          </a>
           </div>
-        </div>
-        <div id="rightlowernav" >
-            <div id="rightlowerfirst" >
-
-                <div style="font-size: 17px;">Categories <span><i class="fa-solid fa-chevron-down"></i></span></div>  
-                <div style="font-size: 17px;">Brands <span><i class="fa-solid fa-chevron-down"></i></span></div>  
-            </div>
-                 <div id="rightlowermiddle" >
-                    <!-- <input type="text" placeholder="Search for Brands"> -->
-                     <form>
-                        <!-- <i class="fa-duotone fa-magnifying-glass"></i> -->
-                        <!-- <i class="fa fa-search"></i> -->
-                        <input type="search" placeholder="Search for Products"  >
-                        
-                      </form> 
-                      
-                </div>
-                 <div id="rightlowerlast">
-
-                     <div><i class="fa-sharp fa-regular fa-heart" style="font-size: 1.5em;"></i></div>
-                     <!-- <div> <i class="fa-solid fa-cart-shopping-fast"></i></div> -->
-                    <a href="cart.html"> <i class="fa fa-shopping-bag" style="font-size:23px;"></i></a>
-                     <!-- <div><i class="fa-regular fa-cart-shopping"></i></div> -->
+      </div>
+      <div id="rightnav">
+          <div id="rightuppernav">
+            <div style="padding-left: 20px;">Tata CliQ Luxury </div>
+            <div id="rightupperright" style="padding-right: 60px;">
+                  <div>CLiQ Cash</div>
+                  <div>Gift Card</div>
+                  <div>CliQ Care</div>
+                  <div>Track Orders</div>
+                  <!-- <div id="signup"><a href="signup.html">Sign In /Sign Up</a></div> -->
+                   <div class="dropdown"> 
+                      <button class="dropbtn">Sign Up / Sign In</button>
+                      <div class="dropdown-content">
+                        <a href="../signup.html"><button id="signbtn">LogIn/Register</button></a>
+                        <a href="#"><i class="fa-regular fa-user" style="font-size:23px;"></i>  My Account</a>
+                        <a href="#"> <i class="fa fa-shopping-bag" style="font-size:23px;"></i>Order History</a>
+                        <a href="#"><i class="fa-sharp fa-regular fa-heart" style="font-size: 1.5em;"></i>My WishList</a>
+                      </div>
                     </div>
-        </div>
-    </div>
-</div>
+            </div>
+          </div>
+          <div id="rightlowernav" >
+              <div id="rightlowerfirst" >
+                  <div class="dropdown">
+                      <div style="font-size: 17px;">Categories <span><i class="fa-solid fa-chevron-down"></i></span></div> 
+                      <div class="dropdown-content">
+                         <div class="subcontent"> <a href="../productpage/women.html" >Women's Fashion</a>
+                          <div class="sub-subcontent">
+                              <div class="items"><a href="../productpage/women.html">Saree</a></div>
+                              <a href="../productpage/women.html">Kurti</a>
+                              <a href="../productpage/women.html">Plazo</a>
+                              <a href="../productpage/women.html">Clips</a>
+                              <a href="../productpage/women.html">Sandals</a>
+                              <a href="../productpage/women.html">Cosmetics</a>
+                              <a href="../productpage/women.html">Lipstick</a>
+                              <a href="../productpage/women.html">Formal</a>
+                            
+                          </div>
+                      </div>
+                         <div class="subcontent"> <a href="../productpage/mens.html" >Men's Fashion</a>
+                          <div class="sub-subcontent">
+                              <a href="../productpage/mens.html">Shirts</a>
+                              <a href="../productpage/mens.html">Pants</a>
+                              <a href="../productpage/mens.html">Shoes</a>
+                              <a href="../productpage/mens.html">Belts</a>
+                              <a href="../productpage/mens.html">Sandals</a>
+                              <a href="../productpage/mens.html">Perfumes</a>
+                              <a href="../productpage/mens.html">Goggles</a>
+                              <a href="../productpage/mens.html">SweatPants</a>
+                            
+                          </div>
+                      </div >
+
+                        <div class="subcontent">  <a href="../productpage/electronics.html">TV Aplliances</a>
+                          <div class="sub-subcontent">
+                              <a href="../productpage/electronics.html">Digital TV</a>
+                              <a href="../productpage/electronics.html">Set-top -box</a>
+                              <a href="../productpage/electronics.html">Remote</a>
+                              <a href="../productpage/electronics.html">Battery</a>
+                              <a href="../productpage/electronics.html">Wifi</a>
+                              <a href="../productpage/electronics.html">Others</a>
+                              
+                            
+                          </div>
+                          </div>
+                          <div class="subcontent"> <a href="../productpage/kids.html">Kid's Fashion</a>
+                              <div class="sub-subcontent">
+                                  <a href="../productpage/kids.html">Diapers</a>
+                              <a href="../productpage/kids.html">Toys</a>
+                              <a href="../productpage/kids.html">Napkins</a>
+                              <a href="../productpage/kids.html">Shampoo</a>
+                              <a href="../productpage/kids.html">Oils</a>
+                              </div>
+                              </div>
+                          <a href="#">Electronics</a>
+                          <a href="#">Mobile</a>
+                          <a href="#">Beauty</a>
+                          <a href="#">Home Furnishing</a>
+                        
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                        <div style="font-size: 17px;">Brands <span><i class="fa-solid fa-chevron-down"></i></span></div>   
+                      <!-- <div style="font-size: 17px;">Categories <span><i class="fa-solid fa-chevron-down"></i></span></div>  -->
+                       <div class="dropdown-content">
+                          <a href="">Apple</a>
+                          <a href="#">Oppo</a>
+                          <a href="#">Xiaomi</a>
+                          <a href="#">Dell</a>
+                          <a href="#">Hp</a>
+                          <a href="#">Lenovo</a>
+                          <a href="#">Nikon</a>
+                          <a href="#">Canon</a>
+                        
+                      </div>
+                    </div>
+              </div> 
+
+
+              
+
+
+
+
+
+                   <div id="rightlowermiddle" > 
+                      <!-- <input type="text" placeholder="Search for Brands"> -->
+                      <!-- <i class="fa fa-search"></i> -->
+                      <!-- <i class="fa-duotone fa-magnifying-glass"></i> -->
+                        <form> 
+                          <input type="search" id="searchbox" placeholder="Search for Products" oninput="debounce(searchfun,2000)" >
+                          
+                        </form> 
+                        
+                  </div>
+                   <div id="rightlowerlast">
+
+                       <div><i class="fa-sharp fa-regular fa-heart" style="font-size: 1.5em;"></i></div> 
+                       <!-- <div> <i class="fa-solid fa-cart-shopping-fast"></i></div> -->
+                      <a href="../cart.html" id="carticon" > <i    class="fa fa-shopping-bag" style="font-size:23px;padding-right:5px ;"></i><span id="count" ></span></a>
+                       <!-- <div><i class="fa-regular fa-cart-shopping"></i></div> -->
+                       </div> 
+          </div>
+      </div>
+  </div>
+  <script >
+      let arr = JSON.parse(localStorage.getItem("my-products"))||[]
+       let count =arr.length
+      document.getElementById("count").textContent=count
+
+                      let timr;
+              function debounce(searchfun,delay){
+                  if(timr){
+                      clearTimeout(timr)
+                  }
+                  timr=setTimeout(function(){
+                      searchfun()
+                  },delay)
+              }
+
+              function searchfun(){
+                  document.getElementById("searchbox").value=""
+                  window.location.assign("../productpage/women.html")
+              }
+      
+  </script>
+
+
 
 
 
 
 
     
+
     <div class="slider">
         <div class="slides">
           <div class="pre" onclick="pre()"></div>
@@ -357,5 +463,9 @@
 
          <!-- footer end -->
 </body>
-<script src="index.js" ></script>
+<script src="index.js">
+
+</script>
+
+
 </html>

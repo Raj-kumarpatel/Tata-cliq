@@ -247,7 +247,8 @@ function displayData(arr)
 }
 
 function goToBag(ele) {
-    console.log("gotobag")
+    location.href="../cart.html"
+        
 }
 
 function addToBagFun(ele) {

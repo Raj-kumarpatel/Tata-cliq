@@ -5,12 +5,22 @@ function res(){
     var arr=[];
    
     obj={
+<<<<<<< HEAD
       "id": 1,
       "name": "Crocodile",
       "description": "Crocodile Multicolor Regular Fit Check Cotton Shirt",
       "price":"2299",
       "image" : "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017136986_437Wx649H_202304081455471.jpeg",
       "discount" :25
+=======
+        image:"https://www.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-260nw-461355724.jpg",
+        name:"g",
+        description:"this is the best t-shirt you ever got",
+        price:700,
+        size:7,
+        color:"mixup",
+        discounted_price:800
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
     }
    
     arr.push(obj);
@@ -21,10 +31,17 @@ function res(){
         price:900,
         size:7,
         color:"mixup",
+<<<<<<< HEAD
         discount:800
     }
     arr.push(obj);
     localStorage.setItem("my-product",JSON.stringify(arr))
+=======
+        discounted_price:800
+    }
+    arr.push(obj);
+    localStorage.setItem("bagItem",JSON.stringify(arr))
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
 }
 
 
@@ -47,19 +64,32 @@ window.addEventListener('scroll',function(){
 // })
 
 
+<<<<<<< HEAD
 var my = localStorage.getItem('my-product');
+=======
+var bag = localStorage.getItem('bagItem');
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
 
 var productInfo = document.querySelector('.product-info');
 var productSide = document.querySelector('.product-side');
 var sum  = 0;
 var diff = 0;
+<<<<<<< HEAD
 if(my== null){
+=======
+if(bag == null){
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
 document.querySelector('.empty').style.display = 'flex';
 // alert("nill")
 } 
 else{
+<<<<<<< HEAD
     my = JSON.parse(my)
       if(my.length == 0){
+=======
+    bag = JSON.parse(bag)
+      if(bag.length == 0){
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
         document.querySelector('.empty').style.display = 'flex';
        }
     else{
@@ -70,11 +100,16 @@ else{
    // product info display flex
 
     
+<<<<<<< HEAD
     for(var i = 0; i < my.length; i++){
+=======
+    for(var i = 0; i < bag.length; i++){
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
         var div = document.createElement('div');
     // div.setAttribute('class','x')
         div.innerHTML = `<div class="product">
         <div class="img">
+<<<<<<< HEAD
           <img src="${my[i].image}"alt="">
         </div>
         <div class="details">
@@ -82,6 +117,15 @@ else{
           <p class="product-name"  style="font-size:17px">${my[i].description}</p>
           
           <p class="price" style="color:green;font-weight:bold">₹${my[i].discount}<p class="dprice" style="color:red">₹${my[i].price}</p></p>
+=======
+          <img src="${bag[i].image}"  alt="">
+        </div>
+        <div class="details">
+        <p class="names"  style="font-size:17px">${bag[i].name}</p>
+          <p class="product-name"  style="font-size:17px">${bag[i].description}</p>
+          
+          <p class="price" style="color:green;font-weight:bold">₹${bag[i].discount}<p class="dprice" style="color:red">₹${bag[i].price}</p></p>
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
           <div class="counter" style="font-size:17px" >
             Quantity:
             <span class="down"  style="color:red;font-weight:bolder"  onClick='decreaseCount(event, this,${i})'>-</span>
@@ -109,9 +153,15 @@ else{
      
       
      var quant=JSON.parse(localStorage.getItem("quantity"));
+<<<<<<< HEAD
      sum += Number(my[i].price);
     //  window.reload();
     diff += Number(my[i].discount);
+=======
+     sum += Number(bag[i].price);
+    //  window.reload();
+    diff += Number(bag[i].discount);
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
     
     
     }
@@ -147,7 +197,11 @@ function increaseCount(a, b , idx) {
   value++;
   input.value = value;
   x +=  Number(JSON.parse(localStorage.bagItem)[idx].price)
+<<<<<<< HEAD
   z += Number(JSON.parse(localStorage.bagItem)[idx].discounted_price)
+=======
+  z += Number(JSON.parse(localStorage.bagItem)[idx].discount)
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
   y(+x,+z)
 }
 
@@ -205,11 +259,20 @@ function coupon(c){
 var payable = document.querySelector('.tot');
 console.log(payable.value);
 function rem(idy){
+<<<<<<< HEAD
   console.log(my[idy]);
   my.splice(idy,idy+1)
   if(my.length == 0){
    document.querySelector('.empty').style.display = 'flex';
   }
   localStorage.setItem('my-product',JSON.stringify(my))
+=======
+  console.log(bagItem[idy]);
+  bagItem.splice(idy,idy+1)
+  if(bagItem.length == 0){
+   document.querySelector('.empty').style.display = 'flex';
+  }
+  localStorage.setItem('bagItem',JSON.stringify(bagItem))
+>>>>>>> 4ff124fe76f38ef2c24a635618c5b9bcc588e881
   location.reload();
 }
