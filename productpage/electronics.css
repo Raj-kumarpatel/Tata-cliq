@@ -138,7 +138,8 @@
 {
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff7a;
+  background-color:#ffffff7a;
+  color: black;
 }
 
 body p {

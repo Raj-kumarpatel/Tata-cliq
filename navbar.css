@@ -12,6 +12,9 @@ body{
   min-height: 100vh;
   color: white;
 }
+i {
+  color: white;
+}
 #navbar{
   width: 100%;
   height: 100px;
