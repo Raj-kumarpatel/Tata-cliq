@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./electronics.css">
+</head>
+<body>
+    <div id="Navbar-div"></div>
+    <h2 style="text-align: center;">Electronics</h2>
+    <p  style="text-align: center;">23456 products</p>
+    <div id="mainProductContent">
+        
+        <div id="filter-productsDivLeft">
+            <div id="first">
+            <label for="brandName" class="labels">Brands :</label>
+            <select id="brand">
+                <option value="Select">Select Any Brand</option>
+                <option value="Boat">Boat</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Amazon Echo Dot">Amazon</option>
+                <option value="JBL">JBL</option>
+                <option value="Sandisk">Sandisk</option>
+                <option value="Crucial">Crucial</option>
+                <option value="Google">Google</option>
+            </select>
+        </div>
+        <div id="second">
+            <label for="filterPrice" class="labels">Price Range</label>
+            <input type="range" id="filterPrice" min="0" max="1000" step="10">
+        </div>
+        <div id="third">
+            <label class="labels">Select Category</label><br>
+            <div class="third-divs">
+            <label for = "men" class="checkboxlabels">Men</label>
+            <input type="checkbox" value ="men" id="men" class="checks"/>
+        </div>
+        <div class="third-divs">
+            <lable for = "women" class="checkboxlabels">women</lable>
+            <input type="checkbox" value ="women" id="women" class="checks"/>
+        </div>
+        <div class="third-divs">
+            <lable for = "kids" class="checkboxlabels">kids</lable>
+            <input type="checkbox" value ="kids" id="kids" class="checks"/>
+        </div>
+        <div class="third-divs">
+            <lable for = "electronics" class="checkboxlabels">electronics</lable>
+            <input type="checkbox" value ="electronics" id="electronics" class="checks"/>
+        </div>
+        </div>
+    </div>
+        <div id="right-sideDiv">
+
+            <div id="sort-section">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select">
+                    <option value="newArrivals">New Arrivals</option>
+                    <option value="low">Price Low To High</option>
+                    <option value="high">Price High To Low</option>
+                    <option value="discount">Discount</option>
+                </select>
+            </div>
+            <div id="products-cardDivRight"></div>
+        </div>
+    </div>
+    <div id="footer-div"></div>
+
+    <script src="./electronics.js"></script>
+</body>
+</html>
