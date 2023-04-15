@@ -1,15 +1,16 @@
-*{
+/* *{
   margin-top: 0px;
   margin-left: 0px;
   font-family: 'Rubik';
   color:white;
   font-size: 14px;
   font-weight: bold;
-}
+} */
 body{
   margin: 0;
   background-color: rgb(236,236,236);
   min-height: 100vh;
+  color: white;
 }
 #navbar{
   width: 100%;
@@ -245,7 +246,7 @@ background-color: white;
   text-decoration: none;
   color:red;
   font-weight: bold;
-  position: fixed;
+  /* position: fixed; */
   
 }
 #searchbox{

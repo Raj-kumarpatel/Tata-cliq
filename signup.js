@@ -50,7 +50,7 @@ signinreal.addEventListener("click",() => {
         if(loginmail==ele.email && loginpass==ele.password){
             console.log("hurray")
             window.confirm("Hurray! Log in successful.  You will will be redirected to Home Page")
-            window.location.assign("landing.html");
+            window.location.assign("./landing-page/index.html");
             
             document.getElementById("dropbtn").textContent=ele.name
             f=1
