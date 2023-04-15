@@ -58,5 +58,5 @@ function movetoback() {
 
 
 document.getElementById("nav2logo").addEventListener("click",function(){
-    window.location.href="index.html"
+    window.location.href="../landing-page/index.html"
     })

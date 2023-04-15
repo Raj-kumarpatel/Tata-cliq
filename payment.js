@@ -66,20 +66,19 @@ function checkdetails() {
 document.getElementById("ButtonPay").addEventListener("click",dcheckdetails)
 
 function dcheckdetails() {
-    // Checking card number length
+   
 var cardlength=document.getElementById("DebitNumber").value
 var cvv=document.getElementById("BackPay").value
 if(cvv.length!=3 && cardlength.length!=16) alert("Please enter valid credentials")
 else {
    
     localStorage.removeItem("cartlist")
-    // console.log(h)
-    // window.localStorage.removeItem('cartlist')
+   
     
     window.location.href="otp.html"
     }
 }
 
 document.getElementById("nav2logo").addEventListener("click",function(){
-    window.location.href="index.html"
+    window.location.href="../landing-page/index.html"
     })

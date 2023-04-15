@@ -1,12 +1,5 @@
 
 
-
-
-
-
-/* *{
-    background-color: rgb(249,249,249);
-  } */
   .slider{
   
       width: 100%;
@@ -54,7 +47,7 @@
     }
     
    
-   .next{
+   /* .next{
        position: absolute;
        border-radius: 50%;
        width: 70px;
@@ -63,13 +56,13 @@
        cursor: pointer;
        top: 250px;
        background-color: #d8d8d8;
-        background-image: url("https://static.thenounproject.com/png/2354422-200.png"); 
+       background-image: url("https://static.thenounproject.com/png/2354422-200.png");  
        background-position: center;
        background-repeat: no-repeat;
        background-size: 30px 30px;
        right: 10px;
-   }
-   .pre{
+   } */
+   /* .pre{
       position: absolute;
       border-radius: 50%;
       width: 70px;
@@ -78,13 +71,13 @@
       opacity: .7;
       height: 70px;
       background-color: #d8d8d8;
-      background-image: url("https://static.thenounproject.com/png/2354422-200.png");
-      transform: rotate(180deg);
+      /* background-image: url("https://static.thenounproject.com/png/2354422-200.png"); */
+      /* transform: rotate(180deg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: 30px 30px;
-      left: 10px;
-  }
+      left: 10px; */
+  
   /* end coursel */
   
   /* product images start */
@@ -93,6 +86,7 @@
       display :flex;
       margin-top: 10px;
       justify-content: space-evenly;
+      cursor: pointer;
        
   }
   /* #product-images .images{ 
@@ -287,7 +281,7 @@
   }
   .trust-logo{
      margin-top: 50px;
-      width: 12%;
+      width: 30%;
       height: 2rem;
   }
   .icon-image{

@@ -20,7 +20,7 @@ function displayProducts(arr)
 
         let image = document.createElement("img");
         image.setAttribute("src",ele.image);
-        image.style.width="70%";
+        image.style.width="100%";
 
         let name = document.createElement("h3");
         name.textContent=ele.name;
